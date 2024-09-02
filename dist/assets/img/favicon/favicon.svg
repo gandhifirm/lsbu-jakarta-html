@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 0px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" y="57.46" width="600" height="485.08"/>
+    </clipPath>
+  </defs>
+  <g class="cls-1">
+    <image width="630" height="541" transform="translate(-36.68 17.97) scale(1.06)" xlink:href="../Logo/logo LSBUJAKARTA final 3.png"/>
+  </g>
+</svg>
