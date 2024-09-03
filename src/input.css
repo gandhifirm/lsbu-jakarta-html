@@ -66,7 +66,7 @@ a.hover:hover:before {
 	@apply font-Unicons align-[-3px];
 }
 hr.double {
-	@apply border-t-0 border-double border-[rgba(164,174,198,0.2)] bg-inherit;
+	@apply border-t-0 border-double border-[rgba(30,30,30,0.65)] bg-inherit;
 }
 _:default:not(:root:root),
 hr.double {
@@ -916,7 +916,7 @@ textarea.form-control.is-invalid {
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-	@apply text-[#19079B] bg-white border-[rgba(164,174,198,0.2)];
+	@apply text-[#19079B] bg-white border-[rgba(30,30,30,0.65)];
 }
 .nav-tabs .dropdown-menu {
 	@apply mt-[calc(-1_*_1px)] rounded-t-none;
@@ -1015,7 +1015,7 @@ textarea.form-control.is-invalid {
 	@apply text-white hover:text-[rgba(255,255,255,0.7)] focus:text-[rgba(255,255,255,0.7)];
 }
 .card {
-	@apply relative flex flex-col min-w-0 text-[#60697b] bg-[#ffffff] bg-clip-border border-[1px] border-[rgba(164,174,198,0.2)] rounded-[0.4rem] border-solid [word-wrap:break-word];
+	@apply relative flex flex-col min-w-0 text-[#60697b] bg-[#ffffff] bg-clip-border border-[1px] border-[rgba(30,30,30,0.65)] rounded-[0.4rem] border-solid [word-wrap:break-word];
 }
 .card > hr {
 	@apply mx-0;
@@ -1061,18 +1061,18 @@ textarea.form-control.is-invalid {
 	@apply flex pl-0 list-none;
 }
 .page-link {
-	@apply relative block p-0 text-[0.65rem] text-[#1a1a1a] bg-[#ffffff] border-[1px] border-[rgba(164,174,198,0.2)] transition-all duration-[0.2s] ease-in-out border-solid motion-reduce:transition-none hover:z-[2] hover:text-[#19079B] hover:bg-[#ffffff] hover:border-[rgba(164,174,198,0.2)] focus:z-[3] focus:text-[#19079B] focus:bg-[#ffffff] focus:shadow-[unset];
+	@apply relative block p-0 text-[0.65rem] text-[#1a1a1a] bg-[#ffffff] border-[1px] border-[rgba(30,30,30,0.65)] transition-all duration-[0.2s] ease-in-out border-solid motion-reduce:transition-none hover:z-[2] hover:text-[#19079B] hover:bg-[#ffffff] hover:border-[rgba(30,30,30,0.65)] focus:z-[3] focus:text-[#19079B] focus:bg-[#ffffff] focus:shadow-[unset];
 }
 .page-link:focus {
 	outline: 0;
 }
 .active > .page-link,
 .page-link.active {
-	@apply z-[3] text-[#19079B] bg-[#ffffff] border-[rgba(164,174,198,0.2)];
+	@apply z-[3] text-[#19079B] bg-[#ffffff] border-[rgba(30,30,30,0.65)];
 }
 .disabled > .page-link,
 .page-link.disabled {
-	@apply text-[#959ca9] pointer-events-none bg-[#ffffff] border-[rgba(164,174,198,0.2)];
+	@apply text-[#686868] pointer-events-none bg-[#ffffff] border-[rgba(30,30,30,0.65)];
 }
 .page-item:not(:first-child) .page-link {
 	@apply ml-[calc(1px_*_-1)];
@@ -1980,13 +1980,13 @@ button:focus {
 	@apply text-[#1a1a1a];
 }
 .btn-soft-ash {
-	@apply text-[#9499a3] bg-[rgba(164,174,198,0.2)] border-[rgba(164,174,198,0.2)]
+	@apply text-[#9499a3] bg-[rgba(164,174,198,0.2)] border-[rgba(30,30,30,0.65)]
         hover:text-[#9499a3]
         hover:bg-[rgba(164,174,198,0.2)]
-        hover:border-[rgba(164,174,198,0.2)]
+        hover:border-[rgba(30,30,30,0.65)]
         active:text-[#9499a3]
         active:bg-[rgba(164,174,198,0.2)]
-        active:border-[rgba(164,174,198,0.2)];
+        active:border-[rgba(30,30,30,0.65)];
 }
 .btn-soft-ash.btn-expand {
 	@apply text-[#9499a3] before:bg-[rgba(164,174,198,0.2)];
@@ -3252,7 +3252,7 @@ button.hamburger:before {
 	@apply border-l-[#19079B] [border-width:calc(0.8rem*.5)0_calc(0.8rem*.5)_0.4rem] -left-px;
 }
 .popover {
-	@apply z-[1070] block max-w-[276px] not-italic font-medium leading-[1.7] text-left text-start no-underline normal-case tracking-[normal] break-normal whitespace-normal text-[0.8rem] bg-white bg-clip-padding border shadow-[0rem_0rem_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(164,174,198,0.2)] [word-wrap:break-word] font-Manrope;
+	@apply z-[1070] block max-w-[276px] not-italic font-medium leading-[1.7] text-left text-start no-underline normal-case tracking-[normal] break-normal whitespace-normal text-[0.8rem] bg-white bg-clip-padding border shadow-[0rem_0rem_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(30,30,30,0.65)] [word-wrap:break-word] font-Manrope;
 	text-shadow: none;
 	word-spacing: normal;
 	line-break: auto;
