@@ -901,10 +901,6 @@ video {
   margin-top: 50px;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1078,6 +1074,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-none {
@@ -1444,6 +1444,10 @@ video {
 
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pl-6 {
@@ -23725,6 +23729,11 @@ blockquote.video-wrapper .video-content.icon-top:before {
   top: 50%;
 }
 
+.before\:top-\[-0\.15rem\]::before {
+  content: var(--tw-content);
+  top: -0.15rem;
+}
+
 .before\:m-0::before {
   content: var(--tw-content);
   margin: 0px;
@@ -23843,6 +23852,11 @@ blockquote.video-wrapper .video-content.icon-top:before {
   vertical-align: .15rem;
 }
 
+.before\:font-SansSerif::before {
+  content: var(--tw-content);
+  font-family: sans-serif;
+}
+
 .before\:font-Unicons::before {
   content: var(--tw-content);
   font-family: Unicons;
@@ -23858,6 +23872,11 @@ blockquote.video-wrapper .video-content.icon-top:before {
   font-size: 1.05rem;
 }
 
+.before\:text-\[1rem\]::before {
+  content: var(--tw-content);
+  font-size: 1rem;
+}
+
 .before\:font-normal::before {
   content: var(--tw-content);
   font-weight: 400;
@@ -23866,6 +23885,12 @@ blockquote.video-wrapper .video-content.icon-top:before {
 .before\:leading-\[1\.8rem\]::before {
   content: var(--tw-content);
   line-height: 1.8rem;
+}
+
+.before\:text-\[\#3f78e0\]::before {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(63 120 224 / var(--tw-text-opacity));
 }
 
 .before\:text-\[rgba\(0\2c 0\2c 0\2c 0\.85\)\]::before {
@@ -23904,6 +23929,11 @@ blockquote.video-wrapper .video-content.icon-top:before {
 
 .before\:content-\[\'\'\]::before {
   --tw-content: '';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\\2022\'\]::before {
+  --tw-content: '\2022';
   content: var(--tw-content);
 }
 
@@ -24874,12 +24904,12 @@ blockquote.video-wrapper .video-content.icon-top:before {
     margin-bottom: 2.6rem;
   }
 
-  .xxl\:mt-0 {
-    margin-top: 0px;
-  }
-
   .xxl\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .xxl\:mt-0 {
+    margin-top: 0px;
   }
 
   .xxl\:block {
